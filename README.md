@@ -1,5 +1,5 @@
 # EmbeddedLinux
-EmbeddedLinux
+
 **23ECC11 - Embedded and Linux System Programming**
 
 **What is Embedded Linux?**
