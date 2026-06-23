@@ -16,7 +16,7 @@ int main(){
     listen(ser, 3); //Listen
     printf("Server waiting for connection...\n");
     soc = accept(ser, NULL, NULL); //Accept
-    recv(soc, buffer, sizeof(buf), 0); //Receive
+    recv(soc, buf, sizeof(buf), 0); //Receive
     printf("Message from client: %s\n", buf);
     close(soc); //Close socket
     close(ser); 
